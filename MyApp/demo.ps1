@@ -68,4 +68,4 @@ elseif ($env -eq "aws") {
 
 Write-Output "Running demo with $env resources"
 Write-Output "dapr run --app-id myapp --app-port 5000 --dapr-http-port 3500 --components-path ./components/$env -- dotnet run --project ./src/myapp/ --urls http://*:5000 `n"
-dapr run --app-id myapp --app-port 5000 --dapr-http-port 3500 --components-path ./components/$env -- dotnet run --project ./src/myapp/ --urls http://*:5000
+dapr run --app-id myapp --app-port 5098 --dapr-http-port 3500 --components-path ./components/$env -- dotnet run --project ./myapp/ --urls http://*:5098

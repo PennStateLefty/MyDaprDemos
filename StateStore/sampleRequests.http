@@ -12,13 +12,13 @@ POST http://localhost:3500/v1.0/state/statestore
 
 [
     {
-        "key": "Dog",
-        "value": "Hybrid"
+        "key": "Bicycle",
+        "value": "Trek Madone"
     }
 ]
 
 ###
-GET http://localhost:3500/v1.0/state/statestore/Dog
+GET http://localhost:3500/v1.0/state/statestore/Bicycle
 
 ###
-DELETE http://localhost:3500/v1.0/state/statestore/Dog
+DELETE http://localhost:3500/v1.0/state/statestore/Bicycle
